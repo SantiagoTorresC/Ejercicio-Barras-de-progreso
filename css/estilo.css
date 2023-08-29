@@ -1,0 +1,29 @@
+section{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.caracteristicas{
+    background-color: lightgreen;
+    color: black;
+    height: 30px;
+    width: 500px;
+    border-radius: 100px;
+    margin: 2px;
+    text-align: center;
+    border: 1px solid grey;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* A estos ultimos 3 valores los encontre en internet
+buscando como alinear el contenido dentro del 
+modelo de caja del div:
+ ( line-height: 100px;
+  text-align: center;
+  vertical-align: middle;) */
